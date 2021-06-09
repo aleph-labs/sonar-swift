@@ -174,6 +174,9 @@ while [ "$1" != "" ]; do
     -notailor)
       tailor=""
       ;;
+    -nooclint)
+      oclint=""
+      ;;
     -usesonarscanner)
       sonarscanner="on"
       ;;
